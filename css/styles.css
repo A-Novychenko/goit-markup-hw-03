@@ -48,8 +48,8 @@ img {
 
 .container {
     width: 1200px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -197,7 +197,7 @@ img {
     font-weight: 700;
     font-size: 16px;
 
-    line-height: 1.875;
+    line-height: 1.88;
     letter-spacing: 0.06em;
 }
 
@@ -255,10 +255,17 @@ img {
     margin-bottom: 30px;
 }
 
+/* work */
+
+.work {
+    padding-top: 0;
+}
+
 /* ----------footer--------------*/
 .page-footer {
     padding-top: 60px;
     padding-bottom: 60px;
+
     background-color: var(--bgc-footer);
 }
 
@@ -269,6 +276,7 @@ img {
 .logo-footer {
     display: inline-block;
     margin-bottom: 20px;
+
     color: var(--white-color);
 }
 
@@ -293,6 +301,7 @@ img {
 
 .portfolio-filter .btn.current {
     padding: 6px 25px;
+
     background-color: var(--accent-color);
     color: var(--white-color);
 
