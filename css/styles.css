@@ -116,23 +116,25 @@ img {
 /* ===========studio=========== */
 
 /* ----------header--------------*/
+
+/* usability recommends using buttons with 
+a size of at least 48*48 */
+
 .page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-bottom: 1px solid #ECECEC;
 }
 
-.logo {
-    color: var(--black-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
-.logo-accent {
-    color: var(--accent-color);
+.site-nav {
+    display: flex;
+    align-items: center;
 }
-
-/* site-nav */
 
 .site-nav .link {
     color: var(--primary-color);
@@ -145,12 +147,57 @@ img {
     color: var(--accent-color);
 }
 
+.site-nav-list {
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav-link {
+    display: block;
+    /* usability recommend min 48px*48px */
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.logo {
+    color: var(--black-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-header {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.contacts-header {
+    display: flex;
+    margin-left: auto;
+}
+
 .contacts-header .link {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
     color: var(--secondary-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
 
+.contacts-header-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .page-header .link:hover:not(.logo.link),
@@ -286,6 +333,7 @@ img {
 
 .contacts-footer {
     color: var(--white-transparent-color);
+    line-height: 1.71;
 }
 
 .contacts-footer:hover,
@@ -293,7 +341,7 @@ img {
     color: var(--accent-color);
 }
 
-.contacts-item:not(.contacts-item:last-child) {
+.contacts-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
