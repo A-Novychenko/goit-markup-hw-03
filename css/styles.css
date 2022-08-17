@@ -121,8 +121,8 @@ img {
 a size of at least 48*48 */
 
 .page-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -158,10 +158,14 @@ a size of at least 48*48 */
 
 .site-nav-link {
     display: block;
-    /* usability recommend min 48px*48px */
+    /* usability recommend min 48px*48px
     padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 16px; */
 }
+/* .logo-header {
+    padding-top: 9px;
+    padding-bottom: 9px;
+} */
 
 .logo {
     color: var(--black-color);
@@ -169,11 +173,6 @@ a size of at least 48*48 */
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-}
-
-.logo-header {
-    padding-top: 9px;
-    padding-bottom: 9px;
 }
 
 .logo-accent {
@@ -186,9 +185,10 @@ a size of at least 48*48 */
 }
 
 .contacts-header .link {
-    display: block;
+    /* /* usability recommend */
+    /* display: block;
     padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 16px; */
 
     color: var(--secondary-color);
     font-weight: 500;
