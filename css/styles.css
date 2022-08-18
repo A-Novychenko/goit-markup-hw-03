@@ -212,6 +212,7 @@ img {
 }
 
 .title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -284,10 +285,6 @@ img {
     padding-top: 0;
 }
 
-.work-title {
-    margin-bottom: 50px;
-}
-
 .work-list {
     display: flex;
     flex-wrap: wrap;
@@ -299,10 +296,6 @@ img {
 /* ===============team===============*/
 .team {
     background-color: var(--bgc-gray);
-}
-
-.team-title {
-    margin-bottom: 50px;
 }
 
 .team-list {
