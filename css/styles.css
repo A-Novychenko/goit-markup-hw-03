@@ -257,6 +257,9 @@ img {
 /* =============features=============*/
 .features-list {
     display: flex;
+    /* flex-wrap: wrap; - на майбутнє,
+    для переносу на інший рядок
+    якщо додадуться такі ж елементи */
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -287,6 +290,9 @@ img {
 
 .work-list {
     display: flex;
+    /* flex-wrap: wrap; - на майбутнє,
+    для переносу на інший рядок
+    якщо додадуться такі ж елементи */
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -300,6 +306,9 @@ img {
 
 .team-list {
     display: flex;
+    /* flex-wrap: wrap; - на майбутнє,
+    для переносу на інший рядок
+    якщо додадуться такі ж елементи */
     flex-wrap: wrap;
     gap: 30px;
 }
