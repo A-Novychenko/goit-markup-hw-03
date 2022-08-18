@@ -381,14 +381,30 @@ img {
 
 
 /* =============portfolio============ */
+.portfolio-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-filter-item:not(:last-child) {
+    margin-right: 8px;
+}
 
 .portfolio-filter .btn.current {
     padding: 6px 25px;
 
     background-color: var(--accent-color);
     color: var(--white-color);
-
 }
+
+.portfolio-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
 
 .portfolio-link {
     color: inherit;
