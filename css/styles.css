@@ -221,6 +221,8 @@ img {
 
 /* ===============hero===============*/
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     color: var(--white-color);
     background-color: var(--bgc-footer);
     text-align: center;
@@ -228,6 +230,9 @@ img {
 
 .title-hero {
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 696px;
 
     font-weight: 900;
     font-size: 44px;
